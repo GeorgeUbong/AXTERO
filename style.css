@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #3670b3;
+  background: #333;
+  height: 3rem;
+}
+p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+#imageInput {
+  margin: 20px 0;
+  border: none;
+}
+
+#imageContainer {
+  text-align: center; /* Center-align the images within the container */
+}
+
+.uploaded-image {
+  width: 100%; /* Set a fixed width */
+  height: 200px; /* Set a fixed height */
+  margin: 10px;
+  object-fit: cover; /* Maintain aspect ratio and cover the 200px by 200px space */
+}
+.delete-button {
+  background-color: #ff0000; /* Red background color */
+  color: #fff; /* White text color */
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
